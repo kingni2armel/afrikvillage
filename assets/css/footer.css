@@ -1,0 +1,22 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.conterneir_footer{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
+}
+.titre_footer{
+    color:white;
+}
+.li_footer:hover{
+                color:red !important;
+}
+.li_footer{
+    color:#000;
+}
+.yoro{
+    background-color: #4CAF50;
+    width: auto;
+}

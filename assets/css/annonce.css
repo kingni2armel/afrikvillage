@@ -1,0 +1,10 @@
+.title_annonce{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4CAF50;
+    font-size: 25px !important;
+    
+}
+body{
+    font-family: poppins !important;
+  }

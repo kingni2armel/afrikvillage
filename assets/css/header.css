@@ -1,0 +1,266 @@
+
+.boris {
+    display: none !important;
+}
+.container_pop_us{
+      margin-left: 55px !important;
+}
+
+
+
+@media all and (min-width:0px) and (max-width:505px){
+  
+    .navbar{
+        display: none !important;
+    }
+  
+    .boris_items:hover{
+        text-decoration: underline !important;
+        text-decoration-color: underline #336699 !important;
+        background-color: #336699;
+    }
+    
+    
+}
+
+/* mise en forme de la bare de menu */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333; 
+  
+  }
+ 
+  
+  .a_connteiner_items{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 5px 5px;
+    margin-left:45px;
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 14px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 12px 14px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: #4CAF50;
+  }
+  
+  .subnav-content {
+   display: none;
+    position: absolute;
+    left: 0;
+    background-color: #4CAF50;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+    
+  }
+  
+
+  /* .text{
+     height: 500px;
+     background-image: url("images/fcf5b123-1690-412a-b7bb-b2ef10c3239a.jpeg");
+     background-size: cover;
+     background-repeat: no-repeat;
+  } */
+
+
+  /* mise en forme des animations */
+  .container_items_para{
+      border:1px solid #4CAF50;
+      height: 200px;
+      width: 100px;
+  }
+  @media all and (min-width:0px) and (max-width:500px){
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+        height: 300px;
+        border: 1px solid red;
+      
+      }
+  }
+  .conteiner_items_info{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+  .conteiner_items_info_gain{
+      border:1px solid red;
+      width: 250px;
+      height: 400px;
+      margin:5px;
+      border-radius: 20px;
+  }
+  /* */
+  .drug{
+      width: 100%;
+      height: 200px;
+  }
+  .name_drug{
+      text-align: center;
+  }
+  .prix_drug{
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+  }
+  .boutton_drug{
+      margin-left: 80px;
+      background-color: #4CAF50;
+      color:white;
+      border:1px solid #4CAF50;
+      border-radius: 20px;
+      height: 40px;
+      width: 100px;
+      outline:none;
+  }
+  .flower{
+    height: 400px;
+    width: 100%;
+   
+ 
+  }
+  .flowers_image{
+        height: 400px;
+        width: 100%;
+  }
+  .buy{
+    font-size: 20px;
+}
+.conteiner_footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center   ;  
+    /* background-color: red; */
+
+}
+.conteiner_footer_items ul li{
+  list-style: none;
+}
+.conteiner_footer_items ul li:hover{
+  color: #4CAF50;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.conteinerss_items{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.containerss{
+  position: relative;
+  width: 500px;
+  margin: 10px;
+  border-radius: 25px;
+  height: 300px;
+  
+}
+.containerss:hover{
+  cursor: pointer;
+}
+
+.imagess{
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #4CAF50;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.containerss:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.textess {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.buy{
+  font-size: 20px;
+}
+.conteiner_footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center   ;
+  height: 200px;
+
+}
+/*mise en forme des liens du pop-up de l'inscription */
+.pop_link{
+    text-decoration: none;
+   
+}
+.pop_button{
+  background-color: #4CAF50;
+  color:white;
+  border:1px solid #4CAF50;
+  outline:none;
+ 
+}
+
+
+/* mise en forme du sidebar */

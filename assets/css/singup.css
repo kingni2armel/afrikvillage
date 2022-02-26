@@ -1,0 +1,67 @@
+
+body{
+    padding: 0;
+    margin:0;
+}
+.conteiner_button{
+    display: flex;
+        height: auto;
+        width: auto;
+    justify-content: center;
+}
+.items_boutton{
+    margin:5px;
+    width: 100%;
+  
+}
+.inputs {
+    width:80%;
+    height: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left:10%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color:#4CAF50;
+    margin-top: 35px;
+    
+}
+.items_boutton{
+    margin: 15px;
+}
+.boutton_sing{
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    margin-left:10%;
+    height: 45px;
+    width: 80%;
+    outline: none;  
+    color:white;
+}
+
+.boutton_annuler {
+    background-color:red;
+    border:1px solid red;
+    height: 45px;
+    width: 80%;
+    outline: none;  
+    color:white;
+    margin-left:10%;
+  }
+  
+input{
+    background: #f1f1f1;
+    outline: none;
+}
+.inputsssss{
+    margin-right: 15% !important;
+}
+.inputsssss{
+    margin-right: 15% !important;
+}

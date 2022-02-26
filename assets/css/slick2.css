@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.for_slick_slider{
+    display: flex;
+
+}
+.for_slick_slider .items{
+    width: 100px;
+    height: 50px;
+    margin: px;
+    
+}
+.for_slick_slider .items img{
+    width: 100px;
+    height: 50px;
+    
+    
+}
